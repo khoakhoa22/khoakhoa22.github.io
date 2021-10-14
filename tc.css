@@ -1,0 +1,760 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.header{
+    width: 100%;
+    height: 400px;
+}
+.header .hd{
+    height: 100%;
+    width: 10%;
+    background: url(https://1.bp.blogspot.com/-7mdoX9Yhip4/XzyKDtm9hfI/AAAAAAAAPCk/nFT4uvM6bUYmlP-8GiMWsvubRa4Bk1F0gCLcBGAsYHQ/s1600/bg_midheader.png);
+    float: left;
+    position: relative;
+}
+.header .hd .hd2{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    position: relative;
+    top: 80px;
+}
+.header .hg{
+    height: 100%;
+    width: 80%;
+    background: url(https://1.bp.blogspot.com/-7mdoX9Yhip4/XzyKDtm9hfI/AAAAAAAAPCk/nFT4uvM6bUYmlP-8GiMWsvubRa4Bk1F0gCLcBGAsYHQ/s1600/bg_midheader.png);
+    float: left;
+}
+.header .hg .hg1{
+    width: 100%;
+    height: 80px;
+    position: relative;
+}
+.header .hg .hg1 .logo img{
+    width: 180px;
+    position: relative;
+    top: 10px;
+}
+.header .hg .hg1 .h1{
+    display: inline-block;
+    width: 100px;
+    position: relative;
+    top: 20px;
+    font-size: 17px;
+    float: right;
+    right: 200px;
+    text-align: center;
+}
+.header .hg .hg1 .h1 a{
+    text-decoration: none;
+    color: white;
+}
+.header .hg .hg1 .h2{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(255, 174, 0);
+    float: right;
+    position: relative;
+    left: 600px;
+    top: 15px;
+    border-radius: 7px;
+}
+.header .hg .hg1 .h2:hover{
+    background-color: rgb(43, 255, 0);
+}
+.header .hg .hg1 .h2 a{
+    width: 100%;
+    height: 80%;
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    position: relative;
+    top: 20%;
+}
+.header .hg .hg2{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    position: relative;
+}
+.header .hg .hg2 ul li{
+    list-style-type: none;
+    display: inline-table;
+    position: relative;
+    width: 100px;
+}
+.header .hg .hg2 ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    text-align: left;
+    position: relative;
+    top: 15px;
+}
+.header .hg .hg2 ul li a:hover{
+    color: rgb(255, 158, 46);
+}
+.header .hg .hg2 .hg22{
+    float: right;
+    width: 200px;
+    height: 30px;
+    position: relative;
+    bottom: 10px;
+    background-color: rgb(255, 136, 0);
+    border-radius: 7px;
+}
+.header .hg .hg2 .hg22 input{
+    background-color: rgb(255, 136, 0);
+    outline: none;
+    border: none;
+    height: 100%;
+    width: 90%;
+    float: left;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+    color: white;
+}
+.header .hg .hg2 .hg22 button{
+    background-color: rgb(255, 136, 0);
+    outline: none;
+    border: none;
+    height: 100%;
+    width: 10%;
+    float: right;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    text-align: left;
+    color: white;
+}
+.header .hg .hg2 .hg22 button:hover{
+    cursor: pointer;
+}
+@media only screen and (max-width:800px) {
+    .header .hg .hg1 .h1{
+        display: none;
+    }
+}
+@media only screen and (max-width:800px) {
+    .header .h2{
+        display: none;
+    }
+}
+@media only screen and (max-width:800px) {
+    .header .hg2{
+        display: none;
+    }
+}
+@media only screen and (max-width:800px) {
+    .header .hd .hd2{
+        display: none;
+    }
+}
+@media only screen and (max-width:800px) {
+    .header .hc .hc2{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .header .hd{
+        display: none;
+    }
+}
+@media only screen and (max-width:800px) {
+    .header .hc{
+        display: none;
+    }
+}
+@media only screen and (max-width:800px) {
+    .header .hg{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:800px) {
+    .header .hg .hg3 .hg33{
+        width: 10%;
+    }
+}
+.header .hg .hg3{
+    width: 100%;
+    height: 270px;
+    color: white;
+    position: relative;
+}
+.header .hg .hg3 h1{
+    text-align: center;
+    font-size: 40px;
+}
+.header .hg .hg3 h3{
+    text-align: center;
+    font-size: 17px;
+    font-weight: normal;
+}
+.header .hg .hg3 .hg33 .hg333{
+    width: 450px;
+    height: 50px;
+    background-color: white;
+    border-radius: 7px;
+    position: relative;
+    left: 32%;
+    text-align: center;
+}
+.header .hg .hg3 .hg33 input{
+    background-color: white;
+    outline: none;
+    border: none;
+    height: 100%;
+    width: 90%;
+    float: left;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+    color: gray;
+}
+.header .hg .hg3 .hg33 button{
+    background-color: white;
+    outline: none;
+    border: none;
+    height: 100%;
+    width: 10%;
+    float: right;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    text-align: center;
+    color: gray;
+}
+.header .hg .hg3 .hg33 button:hover{
+    background-color: rgb(235, 235, 235);
+    cursor: pointer;
+}
+.header .hg .hg3 ul{
+    text-align: center;
+}
+.header .hg .hg3 ul li{
+    list-style-type: none;
+    display: inline-table;
+    border-right: 2px solid white;
+    text-align: center;
+    width: 120px;
+    font-size: 13px;
+}
+.header .hg .hg3 ul li a{
+    text-decoration: none;
+    color: white;
+}
+.header .hc{
+    height: 100%;
+    width: 10%;
+    background: url(https://1.bp.blogspot.com/-7mdoX9Yhip4/XzyKDtm9hfI/AAAAAAAAPCk/nFT4uvM6bUYmlP-8GiMWsvubRa4Bk1F0gCLcBGAsYHQ/s1600/bg_midheader.png);
+    float: right;
+}
+.header .hc .hc2{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    position: relative;
+    top: 80px;
+}
+.section{
+    width: 100%;
+    height: 1200px;
+}
+.section .sd{
+    height: 100%;
+    width: 10%;
+    float: left;
+}
+.section .sg{
+    height: 100%;
+    width: 80%;
+    float: left;
+
+}
+.section .sg .sgt{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.section .sg .sgd{
+    width: 100%;
+    height: 10%;
+    float: left;
+}
+.section .sg .sgt .sg1{
+    flex-basis: 30%;
+    height: 300px;
+    background-color: white;
+    border: solid 2px orange;
+    margin-top: 30px;
+}
+@media only screen and (max-width: 600px){
+    .section .sg .sgt .sg1{
+        flex-basis: 90%;
+        margin-left: 5%;
+    }
+}
+@media (min-width: 600px) and (max-width: 800px){
+    .section .sg .sgt .sg1{
+        flex-basis: 40%;
+        margin: 2%;
+    }
+}
+@media only screen and (max-width: 800px){
+    .section .sd{
+        display: none;
+    }
+}
+@media only screen and (max-width: 800px){
+    .section .sc{
+        display: none;
+    }
+}
+@media only screen and (max-width: 800px){
+    .section .sg{
+        width: 100%;
+    }
+}
+.section .sg .sgt .sg1 .sg2{
+    width: 100%;
+    height: 65%;
+}
+.section .sg .sgt .sg1 .sg2:hover{
+    z-index: 1;
+}
+.section .sg .sgt .sg1 .sg2 img{
+    width: 100%;
+    height: 100%;
+}
+.section .sg .sgt .sg1 .sg2 img:hover{
+    opacity: 0.5;
+}
+.section .sg .sgt .sg1 .sg3{
+    width: 100%;
+    height: 35%;
+}
+.section .sg .sgt .sg1 .sg3 .sg33{
+    float: left;
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+}
+.section .sg .sgt .sg1 .sg3 .sg33 a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 10%;
+    top: 10%;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.section .sg .sgt .sg1 .sg3 .sg33 a:hover{
+    color: rgb(0, 0, 148);
+}
+.section .sg .sgt .sg1 .sg3 .sg33 p{
+    position: relative;
+    color: orange;
+    font-weight: bold;
+    left: 10%;
+    top: 20%;
+}
+.section .sg .sgt .sg1 .sg3 .sg33 b{
+    position: relative;
+    color: rgb(255, 217, 0);
+    font-weight: bold;
+    left: 10%;
+    top: 30%;
+}
+.section .sg .sgt .sg1 .sg3 .sg34{
+    float: right;
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+}
+.section .sg .sgt .sg1 .sg3 .sg34 button{
+    width: 40px;
+    height: 35px;
+    border-radius: 5px;
+    border: 2px solid orange;
+    color: orange;
+    cursor: pointer;
+    position: relative;
+    font-size: 17px;
+    float: right;
+    top: 10%;
+    right: 10%;
+}
+.section .sg .sgt .sg1 .sg3 .sg34 p{
+    color: rgb(56, 56, 56);
+    position: relative;
+    float: right;
+    top: 70%;
+    left: 15%;
+    font-size: 13px;
+}
+.section .sg .sgt .sg1 .sg3 .sg34 button:hover{
+    background-color: orange;
+    color: white;
+}
+.section .sg .sgd .sgd1{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.section .sg .sgd .sgd1 button{
+    width: 170px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: lighter;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: orange;
+    position: relative;
+    top: 30%;
+    left: 43%;
+}
+.section .sg .sgd .sgd1 button:hover{
+    background-color: rgb(0, 209, 35);
+}
+@media only screen and (max-width: 600px){
+    .section .sg .sgd .sgd1 button{
+        position: relative;
+        top: 30%;
+        left: 34%;
+    }
+}
+@media (min-width: 600px) and (max-width: 800px){
+    .section .sg .sgd .sgd1 button{
+        position: relative;
+        top: 30%;
+        left: 38%;
+    }
+}
+.section .sd .sd1{
+    width: 100%;
+    height: 65%;
+}
+.section .sc{
+    height: 100%;
+    width: 10%;
+    float: right;
+}
+.section1{
+    width: 100%;
+    height: 400px;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.438)
+}
+.section1 .s1{
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    
+}
+.section1 .s1 .s11{
+    width: 100%;
+    height: 20%;
+}
+.section1 .s1 .s11 p{
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+    font-size: 23px;
+    font-weight: bolder;
+
+}
+.section1 .s1 .s11 p a{
+    float: right;
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: normal;
+    color: rgb(0, 89, 255);
+}
+.section1 .s1 .s11 p a:hover{
+    text-decoration: underline;
+
+}
+.section1 .s1 .s12{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.section1 .s1 .sg1{
+    flex-basis: 30%;
+    height: 300px;
+    background-color: white;
+    border: solid 2px orange;
+}
+.section1 .s1 .sg1 .sg2{
+    width: 100%;
+    height: 65%;
+}
+.section1 .s1 .sg1 .sg2:hover{
+    z-index: 1;
+}
+.section1 .s1 .sg1 .sg2 img{
+    width: 100%;
+    height: 100%;
+}
+.section1 .s1 .sg1 .sg2 img:hover{
+    opacity: 0.5;
+}
+.section1 .s1 .sg1 .sg3{
+    width: 100%;
+    height: 35%;
+}
+.section1 .s1 .sg1 .sg3 .sg33{
+    float: left;
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+}
+.section1 .s1 .sg1 .sg3 .sg33 a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 10%;
+    top: 10%;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.section1 .s1 .sg1 .sg3 .sg33 a:hover{
+    color: rgb(0, 0, 148);
+}
+.section1 .s1 .sg1 .sg3 .sg33 p{
+    position: relative;
+    color: orange;
+    font-weight: bold;
+    left: 10%;
+    top: 20%;
+}
+.section1 .s1 .sg1 .sg3 .sg33 b{
+    position: relative;
+    color: rgb(255, 217, 0);
+    font-weight: bold;
+    left: 10%;
+    top: 30%;
+}
+.section1 .s1 .sg1 .sg3 .sg34{
+    float: right;
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+}
+.section1 .s1 .sg1 .sg3 .sg34 button{
+    width: 40px;
+    height: 35px;
+    border-radius: 5px;
+    border: 2px solid orange;
+    color: orange;
+    cursor: pointer;
+    position: relative;
+    font-size: 17px;
+    float: right;
+    top: 10%;
+    right: 10%;
+}
+.section1 .s1 .sg1 .sg3 .sg34 p{
+    color: rgb(56, 56, 56);
+    position: relative;
+    float: right;
+    top: 70%;
+    left: 15%;
+    font-size: 13px;
+}
+.section1 .s1 .sg1 .sg3 .sg34 button:hover{
+    background-color: orange;
+    color: white;
+}
+@media only screen and (max-width: 600px){
+    .section1 .s1 .s12 .sg1{
+        flex-basis: 90%;
+        margin-left: 5%;
+    }
+}
+@media only screen and (max-width: 600px){
+    .section{
+        height: 3500px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .section1{
+        height: 1200px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .section1 .s1{
+        width: 100%;
+        margin: 0;
+    }
+}
+@media (min-width: 600px) and (max-width: 800px){
+    .section1 .s1 .s12 .sg1{
+        flex-basis: 45%;
+        margin: 2%;
+    }
+}
+@media  (min-width: 600px)  and (max-width: 800px){
+    .section{
+       height: 1900px;
+    }
+}
+@media  (min-width: 600px)  and (max-width: 800px){
+    .section1{
+       height: 900px;
+    }
+}
+@media  (min-width: 600px)  and (max-width: 800px){
+    .section1 .s1{
+       width: 100%;
+       margin: 0;
+    }
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    background: url(https://1.bp.blogspot.com/-7mdoX9Yhip4/XzyKDtm9hfI/AAAAAAAAPCk/nFT4uvM6bUYmlP-8GiMWsvubRa4Bk1F0gCLcBGAsYHQ/s1600/bg_midheader.png);
+}
+.footer .fd{
+    height: 100%;
+    width: 10%;
+    float: left;
+}
+.footer .fg{
+    height: 100%;
+    width: 80%;
+    float: left;
+}
+.footer .fc{
+    height: 100%;
+    width: 10%;
+    float: right;
+}
+.footer .cuoi{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.footer .cuoi .tren .t1{
+    display: inline-block;
+    width: 25%;
+    height: 100%;
+}
+.footer .cuoi .tren .t1 ul{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.footer .cuoi .tren .t1 ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 2%;
+    
+}
+.footer .cuoi .tren .t1 ul li a{
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    font-size: 15px;
+    color: white;
+}
+.footer .cuoi .tren .t1 ul li a:hover{
+    color: black;
+}
+.footer .cuoi .tren .t1 p{
+    text-align: left;
+    font-weight: bold;
+    color: white;
+}
+.footer .cuoi .tren .t2 p{
+    text-align: left;
+    color: white;
+}
+.footer .cuoi .tren .t2 .t22{
+    height: 40px;
+    width: 130px;
+}
+.footer .cuoi .tren .t2 .t23{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+.footer .cuoi .tren .t2 .t23 img{
+    width: 100%;
+    height: 100%;
+}
+.footer .cuoi .tren .t2 .t23 img:hover{
+    opacity: 0.5;
+}
+.footer .cuoi .tren .t2 .t22 img{
+    width: 100%;
+    height: 100%;
+}
+.footer .cuoi .tren .t2 a{
+    display: inline-block;
+    margin-right: 5%;
+    color: rgba(220, 220, 220, 0.575);
+}
+.footer .cuoi .tren .t2 a:hover{
+    color: white;
+}
+.footer .cuoi .tren .t2{
+    display: inline-block;
+    width: 25%;
+    height: 100%;
+}
+.footer .cuoi .tren{
+    width: 100%;
+    height: 85%;
+    display: inline-block;
+}
+.footer .cuoi .duoi{
+    width: 100%;
+    height: 15%;
+    display: inline-block;
+    background-color: #ffffff26;
+}
+.footer .cuoi .duoi p{
+    color: white;
+}
+.footer .cuoi .duoi p a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.705);
+}
+.footer .fd1{
+    width: 100%;
+    height: 85%;
+}
+.footer .fd2{
+    width: 100%;
+    height: 15%;
+    background-color:#ffffff26 ;
+}
+@media only screen and (max-width: 800px){
+    .footer .fd{
+        display: none;
+    }
+}
+@media only screen and (max-width: 800px){
+    .footer .fc{
+        display: none;
+    }
+}
+@media only screen and (max-width: 800px){
+    .footer .fg{
+        width: 100%;
+    }
+}
+
