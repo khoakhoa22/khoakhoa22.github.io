@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Baitap1</title>
+  <link rel="stylesheet" href="wc.css">
+</head>
+<body>
+
+    <style>
+       *{
+         margin: 0;
+         padding: 0;
+       }
+       /* header */
+       .header{
+          width: 100%; height: auto;
+       }
+       .header .row{
+          width:100%;
+          display: flex;
+       }
+       .header .row .logo{
+          flex-basis:25%;
+          height:60px;
+          background-color: blue;
+       }
+       .header .row .banner{
+          flex-basis:75%;
+          height:60px;
+          background-color: red;
+       }
+       /* navgation */
+       .nav{
+          width: 100%;
+          display: flex;
+       }
+       .nav .menu{
+          flex-basis: 60%;
+          background-color: green;
+       }
+       .nav .menu a{
+          text-decoration: none;
+          color: #fff;
+          padding:0 10px;
+       }
+       .nav .search{
+          flex-basis: 40%;
+          background-color: yellow;
+       }
+
+       /* contents */
+       .contents{
+          width: 100%;
+       }
+       .contents .row{
+          width: 100%;
+          display: flex;
+       }
+       /* left */
+       .left{
+          flex-basis:20% ;
+       }
+       .left .sub-menu{
+          width:100%;
+          margin:10px 0;
+          background-color: orange;
+          
+       }
+       .left .box-left{
+          width:100%;
+          margin:10px 0;
+          background-color: purple;
+       }
+       /* main */
+       .main{
+          width: 60%;
+       }
+       
+       
+       .box-main1 .row{
+        display: flex;
+        justify-content: space-evenly;
+       }
+       .slider{
+          flex-basis:45%;
+          background-color: gray;
+          height:100px;
+       }
+       .box-main2 .row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+       }
+       .new{
+         flex-basis: 30%;
+          background-color: pink;
+          margin:5px 0;
+          height:50px;
+       }
+       /* right */
+       .right{
+          width: 20%;
+          display: flex;
+       }
+       .box-right{
+          width:100%;
+          background-color: brown;
+       }
+       /*cuoi*/
+       .cuoi{
+           width: 100%;
+           height: 80px;
+           background-color: skyblue;
+       }
+    </style>
+
+    <div id="container">
+
+      <!-- *****************HEADER******************** -->
+          <div id="header">
+              <header>
+                  <!-- head -->
+                  <div class="header">
+                      <div class="row">
+                        <!-- logo -->
+                          <div class="logo"></div>
+                        <!-- banner -->
+                          <div class="banner"></div>
+                      </div>
+                  </div>
+                  <!-- navgation -->
+                  <div class="nav">
+                      <div class="menu">
+                        <a href="#">Home</a>
+                          <a href="#">Students</a>
+                          <a href="#">Courses</a>
+                          <a href="#">about us</a>
+                      </div>
+                      <div class="search">
+                          <input type="text" placeholder="tìm kiếm">
+                      </div>
+                  </div>
+              </header>
+          </div>
+      <!-- *****************END HEADER******************** -->
+
+      <!-- *****************CONTENTS******************** -->
+          <div id="contents">
+              <div class="contents">
+                  <div class="row">
+                    <!-- left -->
+                      <div class="left">
+                          <div class="sub-menu">
+                              <p>Lorem ipsum dolor .</p>
+                              <p>Lorem ipsum dolor .</p>
+                              <p>Lorem ipsum dolor .</p>
+                              <p>Lorem ipsum dolor .</p>
+                
+                          </div>
+                          <div class="box-left">
+                            <p>Lorem ipsum dolor .</p>
+                            <p>Lorem ipsum dolor .</p>
+                            <p>Lorem ipsum dolor .</p>
+                            <p>Lorem ipsum dolor .</p>
+                          </div>
+                      </div>
+                    <!-- main -->
+                      <div class="main">
+                        
+                            <!-- box-main1 -->
+                            <div class="box-main1">
+                              <div class="row">
+                                  <div class="slider">New slider</div>
+                                  <div class="slider">photo Slider</div>
+                              </div>
+                            </div>
+                        <!-- box-main2 -->
+                            <div class="box-main2">
+                              
+                                <div class="row">
+                                    <div class="new">New1</div>
+                                    <div class="new">New2</div>
+                                    <div class="new">New3</div>
+                                    <div class="new">New4</div>
+                                    <div class="new">New5</div>
+                                    <div class="new">New6</div>
+                                    
+                                </div>
+                            </div>
+                        
+                      </div>
+                    <!-- right -->
+                      <div class="right">
+                          <div class="box-right">
+
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      <!-- *****************END CONTENTS******************** -->
+
+      <!-- *****************FOOTER******************** -->
+      <div id="footer">
+          <div class="footer">
+              <br>
+              <div class="cuoi"></div>
+          </div>
+      </div>
+<!-- *****************END FOOTER******************** -->
+
+    </div>
+
+    
+  
+</body>
+</html>
